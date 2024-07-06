@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Puzzle15</string>
+    <string name="app_name">Puzzle 15</string>
+    <string name="new_game">New Game</string>
+    <string name="info">Info</string>
+    <string name="rating">Rating</string>
+    <string name="continue2">Continue</string>
 </resources>
