@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Puzzle15"
+    android:background="#FBFBFB">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:elevation="2dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/calibrib"
+            android:text="Time"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <Chronometer
+            android:id="@+id/chronometer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/technology_bold"
+            android:textColor="#000000"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="100dp"
+        android:elevation="2dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/calibrib"
+            android:text="@string/move"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/move_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/technology_bold"
+            android:text="@string/_0"
+            android:textColor="#000000"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/backroun05_horizontal" />
+
+    <ImageView
+        android:id="@+id/btn_volume"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_volume_svgrepo_com"
+        android:layout_gravity="start|center"
+        android:layout_marginStart="50dp"/>
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/backround05_2_horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/relative_puzzle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn1"
+            style="@style/PuzzleButton"
+            android:text="@string/_0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn2"
+            style="@style/PuzzleButton"
+            android:layout_toEndOf="@id/btn1"
+            android:text="@string/_0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn3"
+            style="@style/PuzzleButton"
+            android:layout_toEndOf="@id/btn2"
+            android:text="@string/_0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn4"
+            style="@style/PuzzleButton"
+            android:layout_toEndOf="@id/btn3"
+            android:text="@string/_0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn5"
+            style="@style/PuzzleButton"
+            android:layout_below="@id/btn1"
+            android:text="@string/_0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn6"
+            style="@style/PuzzleButton"
+            android:layout_below="@id/btn1"
+            android:layout_toEndOf="@id/btn1"
+            android:text="@string/_0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn7"
+            style="@style/PuzzleButton"
+            android:layout_below="@id/btn2"
+            android:layout_toEndOf="@id/btn2"
+            android:text="@string/_0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn8"
+            style="@style/PuzzleButton"
+            android:layout_below="@id/btn3"
+            android:layout_toEndOf="@id/btn3"
+            android:text="@string/_0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn9"
+            style="@style/PuzzleButton"
+            android:layout_below="@id/btn5"
+            android:text="@string/_0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn10"
+            style="@style/PuzzleButton"
+            android:layout_below="@id/btn5"
+            android:layout_toEndOf="@id/btn5"
+            android:text="@string/_0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn11"
+            style="@style/PuzzleButton"
+            android:layout_below="@id/btn6"
+            android:layout_toEndOf="@id/btn6"
+            android:text="@string/_0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn12"
+            style="@style/PuzzleButton"
+            android:layout_below="@id/btn7"
+            android:layout_toEndOf="@id/btn7"
+            android:text="@string/_0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn13"
+            style="@style/PuzzleButton"
+            android:layout_below="@id/btn9"
+            android:text="@string/_0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn14"
+            style="@style/PuzzleButton"
+            android:layout_below="@id/btn9"
+            android:layout_toEndOf="@id/btn9"
+            android:text="@string/_0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn15"
+            style="@style/PuzzleButton"
+            android:layout_below="@id/btn10"
+            android:layout_toEndOf="@id/btn10"
+            android:text="@string/_0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn16"
+            style="@style/PuzzleButton"
+            android:layout_below="@id/btn11"
+            android:layout_toEndOf="@id/btn11"
+            android:text="@string/_0" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/home_puzzle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center|end"
+        android:layout_marginEnd="70dp"
+        android:background="?actionBarItemBackground"
+        android:clickable="true"
+        android:contentDescription="@string/todo"
+        android:focusable="true"
+        android:src="@drawable/home_2" />
+</FrameLayout>

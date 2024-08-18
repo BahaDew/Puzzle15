@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Puzzle15</string>
+    <string name="puzzle">Puzzle</string>
+    <string name="_15">15</string>
+    <string name="new_game">New Game</string>
+    <string name="info">Info</string>
+    <string name="continue_name">Continue</string>
+    <string name="exit_name">Exit</string>
+    <string name="todo">TODO</string>
+    <string name="puzzle_info">
+        15 jumboq ( shuningdek , Gem Puzzle , Boss Puzzle , Fifteen o\'yin , Mystic Square va boshqalar deb ataladi) toymasin jumboqdir . U 1 dan 15 gacha raqamlangan 15 kvadrat plitkadan iborat bo\'lib, ular 4 ta kafel pozitsiyasi balandligi va 4 ta plitka pozitsiyasi kengligi bo\'lib, bitta bo\'sh joy mavjud. Ochiq joyning bir xil satri yoki ustunidagi plitkalar ularni mos ravishda gorizontal yoki vertikal ravishda siljitish orqali ko\'chirilishi mumkin. Jumboqning maqsadi - plitkalarni raqamli tartibda joylashtirish (chapdan o\'ngga, yuqoridan pastga).Ramkadagi plitkalar sonidan kelib chiqqan holda, 15 ta jumboqni "16 ta jumboq" deb ham atash mumkin , bu uning umumiy plitka sig\'imiga ishora qiladi. Shunga o\'xshash nomlar 15 ta jumboqning turli o\'lchamdagi variantlari uchun ishlatiladi, masalan, 3 × 3 ramkada 8 ta plitkaga ega bo\'lgan 8 jumboq evristika bilan bog\'liq algoritmlarni modellashtirish uchun klassik muammodir. Ushbu muammo uchun tez-tez ishlatiladigan evristika noto\'g\'ri joylashtirilgan plitkalar sonini hisoblash va har bir blok va uning maqsad konfiguratsiyasidagi o\'rni orasidagi taksi masofalarining yig\'indisini topishni o\'z ichiga oladi. E\'tibor bering, ikkalasi ham qabul qilinadi. Ya\'ni, ular hech qachon qolgan harakatlar sonini ortiqcha baholamaydi, bu A* kabi ma\'lum qidiruv algoritmlari uchun optimallikni ta\'minlaydi.
+    </string>
+    <string name="_0">0</string>
+    <string name="_00_00">00:00</string>
+    <string name="move">Move</string>
+    <string name="rating">Rating</string>
+    <string name="time">Time</string>
+</resources>
